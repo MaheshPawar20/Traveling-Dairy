@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #nav {
+        background-color: darkblue;
+        padding: 18px;
+        text-align: center;
+      }
+
+      header{
+        width: 100%;
+        position:static;
+      }
+
+      span {
+        padding: 10px;
+        font-size: 20px;
+      }
+      #home {
+        width: 100%;
+      }
+
+      #home::before {
+        height: 469px;
+      }
+      #home {
+        height: 500px;
+        padding: 3px 28px;
+      }
+
+      #home::before {
+        content: " ";
+        position: absolute;
+        background: url(/Home.jpg) no-repeat center center/cover;
+        height: 550px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.99;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 18px;
+      }
+
+      img {
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+      }
+      table {
+        text-align: center;
+        align-items: center;
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav id="nav">
+        <span><a style="color: white" href="">TRIPS</a></span>
+        <span><a style="color: white" href="about.html">ABOUT</a></span>
+        <span><a style="color: white" href="">CONTACT</a></span>
+      </nav>
+    </div>
+
+    <section id="home"></section>
+
+    <section id="collection">
+      <div>
+        <h1>My Travel Diary</h1>
+      </div>
+
+      <div>
+        <table>
+          <tr>
+            <td><a href="https://www.tajmahal.gov.in/">
+              <img src="/TravelImages/p1.jpg" alt="" /></a><br />
+              <b> Taj Mahal India </b>
+            </td>
+            <td><a href="https://en.wikipedia.org/wiki/Colosseum">
+              <img src="/TravelImages/p2.jpg" alt="" /> </a><br />
+              <b>Colosseum</b>
+            </td>
+            <td><a href="https://world.new7wonders.com/wonders/machu-picchu-1460-1470-peru/">
+              <img
+                style="height: 230px"
+                src="/TravelImages/p3.jpg"
+                alt=""
+              /></a><br />
+              <b>Peru</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td><a href="https://travel.usnews.com/London_England//Pictures/">
+              <img src="/TravelImages/p4.jpg" alt="" /></a><br />
+              <b> London </b>
+            </td>
+            <td><a href="https://travel.usnews.com/Maui_HI//Pictures/">
+              <img style="height: 230px" src="/TravelImages/p5.jpg" alt="" /> </a>
+              <br />
+              <b>Andman</b>
+            </td>
+            <td><a href="https://travel.usnews.com/Paris_France//Pictures/">
+              <img
+                style="height: 230px"
+                src="/TravelImages/p6.jpg"
+                alt=""
+              /></a>
+              <br />
+              <b> Paris</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td> <a href="https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B9%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80">
+              <img src="/TravelImages/p7.jpg" alt="" /></a><br />
+              <b> Sayadri, India </b>
+            </td>
+            <td><a href="https://www.tripadvisor.in/Tourism-g297622-Kashmir_Jammu_and_Kashmir-Vacations.html">
+              <img src="/TravelImages/p8.jpg" alt="" /> </a><br />
+              <b>Kashmir, India</b>
+            </td>
+            <td><a href="https://www.britannica.com/place/India/The-Himalayas">
+              <img src="/TravelImages/p9.jpg" alt="" /></a><br />
+
+              <b>Himalay, India</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td><a href="https://www.holidify.com/collections/zoos-in-india">
+              <img style="height: 230px ;" src="/TravelImages/p10.jpg" alt="" /></a><br />
+              <b> Zoo, India </b>
+            </td>
+            <td><a href="https://himachaltourism.gov.in/">
+              <img src="/TravelImages/p11.jpg" alt="" /></a> <br />
+              <b>Himachal Pardesh, India</b>
+            </td>
+            <td><a href="https://travel.usnews.com/Turks-Caicos//Pictures/">
+              <img style="height: 230px ;" src="/TravelImages/p12.jpg" alt="" /></a><br />
+
+              <b>Turks & Caicos</b>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
